@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.cab {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  /* flex: 0 0 30%; */
+}
+
+.estado {
+/* flex: 0 0 80%; */
+}
+
+.boton {
+/* flex: 1; */
+}
+
+app-lampara {
+  background-color: aqua;
+  flex: 1;
+}
+
+span {
+  color: brown;
+}
+
+button {
+  margin: 1rem;
+}
